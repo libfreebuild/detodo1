@@ -3,6 +3,7 @@ body{
 	margin: 0;
 	padding: 0;
 	margin-top: -20px;
+	max-width: 1800px;
 }
 .menu{
 	position: fixed;
@@ -46,6 +47,7 @@ body{
 	color: black;
 	border: 1px solid white;
 	height: 29px;
+	transition: 0.5s;
 }
 .sub_menu ul li a{
 	color: white;
