@@ -63,12 +63,6 @@ body{
 	background-color: #5E574D;
 	border-bottom: 1px solid white;
 }
-
-.imagen{
-	background-image: url("fantasy3.jpg");
-	width: 100%;
-	height: 580px;
-}
 .granate{
 	color: white;
 	text-shadow: 1px 1px white;
@@ -124,13 +118,14 @@ h1{
 	text-decoration: underline;
 	text-shadow: 2px solid white;
 	font-family: swapon;
-	text-shadow: 
+	text-shadow: 2px 2px #DE369D;
 }
 p{
 	color: #3CDFE0;
 	font-family: swapon;
 	font-size: 23px;
 	margin-left: 50px;
+	text-shadow: 1px 1px #DE369D;
 }
 @font-face{
 	font-family: swapon;
