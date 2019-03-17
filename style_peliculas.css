@@ -1,0 +1,137 @@
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	margin-top: -20px;
+	max-width: 1800px;
+}
+.menu{
+	position: fixed;
+	width: 100%;
+}
+.menu ul{
+	width: 100%;
+	height: 60px;
+	background-color: #DE369D;
+}
+.menu ul li{
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+	float: left;
+	left: 0;
+	padding: 10px;
+}
+.menu ul li:hover{
+	background-color: rgba(215,111,179,0.6);
+	color: black;
+	border: 1px solid white;
+	height: 39px;
+}
+.menu ul li a{
+	color: white;
+}
+.sub_menu ul{
+	width: 400px;
+	height: auto;
+	background-color:#DE369D;
+}
+.sub_menu ul li{
+	list-style: ;
+	text-decoration: none;
+	left: 0;
+	padding: 10px;
+}
+.sub_menu ul li:hover{
+	background-color: rgba(215,111,179,0.6);
+	color: black;
+	border: 1px solid white;
+	height: 29px;
+	transition: 0.5s;
+}
+.sub_menu ul li a{
+	color: white;
+}
+.content_prin img{
+	width: 100%;
+	height: 570px;
+	padding: 10px;
+}
+.header{
+	width: 100%;
+	height: 130px;
+	background-color: #5E574D;
+	border-bottom: 1px solid white;
+}
+.granate{
+	color: white;
+	text-shadow: 1px 1px white;
+	font-family: Roboto Slab;
+}
+.content1_1{
+	background-color: black;
+	width: 100%;
+	margin: 10px auto;
+	height: auto;
+	padding: 10px;
+	border: 10px solid #9DAD6F;
+}
+.content1{
+	width: 100%;
+	height: 130px;
+	margin: 10px auto;
+	background-color: #5E574D;
+}
+.content img{
+	width: 100%;
+	height: 470px;
+	padding: 10px;
+}
+.paginas ul{
+	width: 100%;
+	height: 60px;
+}
+.paginas ul li {
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	float: left;
+	padding: 10px;
+
+}
+.paginas ul li a{
+	color: #DE369D;
+	font-size: 23px;
+}
+iframe{
+	margin: 10px auto;
+	border: 1px solid white;
+}
+table tr{
+	background-color: black;
+	padding: 30px;
+	border-bottom: 3px solid white;
+}
+h1{
+	margin: 10px auto;
+	color: #BCD979;
+	text-decoration: underline;
+	text-shadow: 2px solid white;
+	font-family: swapon;
+	text-shadow: 2px 2px #DE369D;
+}
+p{
+	color: #3CDFE0;
+	font-family: swapon;
+	font-size: 23px;
+	margin-left: 50px;
+	text-shadow: 1px 1px #DE369D;
+}
+@font-face{
+	font-family: swapon;
+	src:url(fuente2.ttf);
+}
+@font-face{
+	font-family: fuente1;
+	src:url(fuente1.ttf);
+}
